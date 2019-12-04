@@ -227,7 +227,7 @@ extension CVTimeStamp {
     }
 }
 
-#else // Linux support using a simple timer --------------------------------------------------
+#else // Linux/watchOS/fallback support using a simple timer --------------------------------------------------
 
 import Foundation
 
