@@ -16,6 +16,13 @@ extension DisplayLink {
 }
 ```
 
+
+| Platform       | Implementation  |
+| -------------- | --------------- |
+| iOS, tvOS      | `CADisplayLink` |
+| macOS          | `CVDisplayLink` |
+| watchOS, Linux | `Timer`         |
+
 *****
 
 Includes a Combine publisher with SwiftUI integration for `CADisplayLink`.
